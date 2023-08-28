@@ -1,7 +1,7 @@
 import praw
  
-username = 'shvrpi3' #replace with your username
-pw = 'Eru1luvatar' #replace with your password
+username = '' #replace with your username
+pw = '' #replace with your password
 r = praw.Reddit(user_agent='/u/'+username+' deleting all saved links')
  
 r.login('username','pw',disable_warning=True)
